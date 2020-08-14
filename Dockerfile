@@ -1,7 +1,7 @@
 # Based on the latest GO image
 FROM golang:1.15
 
-MAINTAINER John Godson <johngodson90@gmail.com>
+MAINTAINER John Godson "johngodson90@gmail.com"
 
 # cloning the repository from the remote
 RUN yum install -y git &&\
